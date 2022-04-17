@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #393939;
+    --secondary-color: #fe84d5;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.c-primary {
+    color: var(--primary-color);
+}
+
+.c-secondary {
+    color: var(--secondary-color);
+}
+
+.b-primary {
+    background-color: var(--primary-color);
+}
+
+.b-secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg-pink {
+    background-color: var(--secondary-color);
+}
+
+
+.lightbox .lb-image {
+    border-width: 10px;
+}
+
+.modal-content {
+    background: transparent;
+    border: none;
+}
+.modal-header--transparent {
+    border: none;
+}
+.modal-header--transparent * {
+    color: #fff;
+}
+.modal-body {
+    background-color: #fff;
+}
+
+@media all and (min-width: 768px){
+    .headline {
+        position: absolute;
+        top: 0;
+        left: 12px;
+    }
+    .contact, .impressum {
+        border-radius: 0;
+    }
+
+    .contact {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-right: 100px;
+    }
+
+    .impressum {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding-left: 100px;
+    }
+}

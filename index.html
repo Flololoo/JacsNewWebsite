@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link href="scripts/lightbox/dist/css/lightbox.css" rel="stylesheet" />
+    <script src="scripts/lightbox/dist/js/lightbox-plus-jquery.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true
+        })
+    </script>
+
+</head>
+<body>
+
+    <header class="container position-relative">
+        <h1 class="headline">LOWE <3 Fotografie</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-7 order-2 order-md-1">
+                <div class="mt-md-5">
+                    <h2 class="mb-4">Willkommen!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos distinctio ducimus est exercitationem id illo non sapiente suscipit vero voluptas? Aut consequuntur distinctio dolor earum incidunt quisquam ratione suscipit tenetur.</p>
+
+
+                    <div class="d-flex justify-content-center justify-content-md-start mb-5">
+                        <a href="https://picsum.photos/1200/800" data-title="My caption" class="btn b-primary text-white" data-lightbox="image-gallery">Schau dir die Fotoserie an
+                        </a>
+                        <a href="https://picsum.photos/300/300" data-lightbox="image-gallery"></a>
+                        <a href="https://picsum.photos/500/300" data-lightbox="image-gallery"></a>
+                        <a href="https://picsum.photos/400/300" data-lightbox="image-gallery"></a>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="mb-4">Bilder nach deinen Vorstellungen</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos distinctio ducimus est exercitationem id illo non sapiente suscipit vero voluptas? Aut consequuntur distinctio dolor earum incidunt quisquam ratione suscipit tenetur.</p>
+                    <div class="d-flex justify-content-center justify-content-md-start mb-5">
+                        <a href="https://picsum.photos/200/300" class="btn b-primary text-white" data-lightbox="image-examples">Schau dir die Beispiele an
+                        </a>
+                        <a href="https://picsum.photos/300/300" data-lightbox="image-examples"></a>
+                        <a href="https://picsum.photos/500/300" data-lightbox="image-examples"></a>
+                        <a href="https://picsum.photos/400/300" data-lightbox="image-examples"></a>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="mb-4">Unentschlossen - lass mich dir helfen!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos distinctio ducimus est exercitationem id illo non sapiente suscipit vero voluptas? Aut consequuntur distinctio dolor earum incidunt quisquam ratione suscipit tenetur.</p>
+                    <div class="d-flex justify-content-center justify-content-md-start mb-5">
+                        <button type="button" class="btn b-primary text-white contact" data-bs-toggle="modal" data-bs-target="#exampleModal">Lass' uns schreiben
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 order-1 order-md-2">
+                <div class="mb-4">
+                    <picture class="ratio ratio-1x1">
+                        <source srcset="https://picsum.photos/200/300" media="(min-width: 768px)">
+                        <img src="https://picsum.photos/200/300" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+
+        <button type="button" class="btn b-primary text-white contact" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <span>K</span>Kontakt
+        </button>
+        <button type="button" class="btn b-primary text-white impressum" data-bs-toggle="modal" data-bs-target="#impressumModal">
+            Impressum <span>?</span>
+        </button>
+    </div>
+
+    <div>
+        <picture class="">
+            <source srcset="https://picsum.photos/1920/50" media="(min-width: 768px)">
+            <img class="img-fluid" src="https://picsum.photos/1920/50" alt="">
+        </picture>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header modal-header--transparent">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close-modal" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <h3>Lass' uns quatschen!</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae cum deserunt facilis illo ipsa iusto molestiae neque numquam odio odit officiis provident quaerat quia, veniam! Ipsa sit voluptas voluptate!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae cum deserunt facilis illo ipsa iusto molestiae neque numquam odio odit officiis provident quaerat quia, veniam! Ipsa sit voluptas voluptate!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae cum deserunt facilis illo ipsa iusto molestiae neque numquam odio odit officiis provident quaerat quia, veniam! Ipsa sit voluptas voluptate!</p>
+
+                            <h4>Preisbeispiele:</h4>
+                            <h5>Fotoserie "Find yourself"</h5>
+                            <div class="d-flex justify-content-between">
+                                <div>Gemeinsame Ideenfindung, <br> Shooting, 6 von dir ausgesuchte, bearbeitete Bilder</div>
+                                <div>250€</div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div>Jedes weitere Bild</div>
+                                <div>50€</div>
+                            </div>
+
+                            <div class="text-right">
+                                (alle Preise werden ohne Ust verrechnet)
+                            </div>
+
+                            <p>Weitere Fotos wie lorem ipsum dolor ....</p>
+                            <p>Ich freue mich auf dich! :3</p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <form action="">
+                                <div class="d-flex flex-wrap mb-4">
+                                    <div class="me-3">
+                                        <label>Vorname<br>
+                                            <input type="text">
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <label>Nachname<br>
+                                            <input type="text">
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-wrap mb-4">
+                                    <div class="me-3">
+                                        <label>Email<br>
+                                            <input type="email">
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <label>Telefonnummer<br>
+                                            <input type="number">
+                                        </label>
+                                    </div>
+                                </div>
+                                <div>
+                                    <label style="width: 100%">Platz für deine Nachricht<br>
+                                        <textarea style="width: 100%; height: 200px"></textarea>
+                                    </label>
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button type="submit" class="btn btn-secondary ms-auto">Absenden</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="bg-pink text-white text-center p-3 h3">Dein feed - wie er dir gefällt</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="impressumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header modal-header--transparent">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close-modal" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aspernatur autem commodi consequuntur corporis cupiditate eos, impedit inventore laudantium, minus nulla odio odit pariatur possimus praesentium quidem quis quisquam? Omnis!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aspernatur autem commodi consequuntur corporis cupiditate eos, impedit inventore laudantium, minus nulla odio odit pariatur possimus praesentium quidem quis quisquam? Omnis!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aspernatur autem commodi consequuntur corporis cupiditate eos, impedit inventore laudantium, minus nulla odio odit pariatur possimus praesentium quidem quis quisquam? Omnis!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aspernatur autem commodi consequuntur corporis cupiditate eos, impedit inventore laudantium, minus nulla odio odit pariatur possimus praesentium quidem quis quisquam? Omnis!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aspernatur autem commodi consequuntur corporis cupiditate eos, impedit inventore laudantium, minus nulla odio odit pariatur possimus praesentium quidem quis quisquam? Omnis!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
